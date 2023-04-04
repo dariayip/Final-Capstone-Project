@@ -8,6 +8,11 @@ To evaluate my models, I propose using the metric recall. As we are looking to c
 
 I will be using Python to code this project. Tools that I am proposing to use include Python’s Pandas, Scikit-Learn, Numpy, Weka, and MatPlotLib libraries. With these tools, I will perform dimensionality reduction, data cleaning, exploratory data analysis, create training and test sets, and develop the content-based and collaborative. Then, I will evaluate this model with the aforementioned metric of recall.
 
+**********************
+EDIT: As an edit to the above abstract which was written prior to creating the content-based and collaborative filtering recommendation systems, the content-based recommendation system was created using the TF-IDF (Term Frequency Inverse Document Frequency) technique. This technique was performed on the "categories" column (alternatively, also the "text" column in the review.json object) in the business.json file (files last modified January 2022). Similarities scores between businesses were calculated using cosine similarity. Recommendations are then generated based on restaurants with the highest similarity scores. This model was evaluated using RMSE, MAE, and alternatively Precision at K. The "ratings" column in review.json was used to pull the actual ratings from a randomly picked user in the test dataset and compared to predicted ratings (a weighted average of the cosine similarity score and the "query business").
+
+The collaborative filtering recommendations system was created using the Surprise library. Two approaches were considered: SVD (Singular Value Decomposition) and ALS (Alternating Least Squares). Both are variations of Matrix Factorization, but employ slightly different methods. When the two were compared in this model, SVD came out as the winner with lower RMSE and MAE scores. Evaluation was performed with K-Fold Cross Validation (5 folds) on RMSE and MAE metrics. For this model, the review.json and business.json objects were used as well.
+
 Link to EDA Report: https://github.com/dariayip/Final-Capstone-Project/blob/main/businesseswithreviewsEDAprofile.html
 
 Link to Content-Based Filtering RS:
