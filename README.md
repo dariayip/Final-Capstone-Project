@@ -11,6 +11,7 @@ I will be using Python to code this project. Tools that I am proposing to use in
 Link to EDA Report: https://github.com/dariayip/Final-Capstone-Project/blob/main/businesseswithreviewsEDAprofile.html
 
 Link to Content-Based Filtering RS:
+https://github.com/dariayip/Final-Capstone-Project/blob/main/Final%20Code/CIND820%20-%20Capstone%20Initial%20Code-TFIDF-v20-2.ipynb
 
 Link to Collaborative Filtering RS:
 https://github.com/dariayip/Final-Capstone-Project/blob/main/Final%20Code/CIND820%20-%20Capstone%20Initial%20Code-MF-v3.ipynb
