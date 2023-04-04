@@ -13,3 +13,4 @@ Link to EDA Report: https://github.com/dariayip/Final-Capstone-Project/blob/main
 Link to Content-Based Filtering RS:
 
 Link to Collaborative Filtering RS:
+https://github.com/dariayip/Final-Capstone-Project/blob/main/Final%20Code/CIND820%20-%20Capstone%20Initial%20Code-MF-v3.ipynb
