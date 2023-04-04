@@ -13,6 +13,8 @@ EDIT: As an edit to the above abstract which was written prior to creating the c
 
 The collaborative filtering recommendations system was created using the Surprise library. Two approaches were considered: SVD (Singular Value Decomposition) and ALS (Alternating Least Squares). Both are variations of Matrix Factorization, but employ slightly different methods. When the two were compared in this model, SVD came out as the winner with lower RMSE and MAE scores. Evaluation was performed with K-Fold Cross Validation (5 folds) on RMSE and MAE metrics. For this model, the review.json and business.json objects were used as well.
 
+In conclusion, based on this model, taking TF-IDF model representative of the content-based filtering system performance and matrix factorization representative of collaborative filtering recommendation system performance, collaborative filtering outperformed content-based filtering when generating restaurant recommendations, evaluated on RMSE and MAE scores.
+
 Link to EDA Report: https://github.com/dariayip/Final-Capstone-Project/blob/main/businesseswithreviewsEDAprofile.html
 
 Link to Content-Based Filtering RS:
