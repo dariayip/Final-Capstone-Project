@@ -15,6 +15,15 @@ The collaborative filtering recommendations system was created using the Surpris
 
 In conclusion, based on this model, taking TF-IDF model representative of the content-based filtering system performance and matrix factorization representative of collaborative filtering recommendation system performance, collaborative filtering outperformed content-based filtering when generating restaurant recommendations, evaluated on RMSE and MAE scores.
 
+The repository contains the files:
+1) Abstract
+2) Initial Code - MF (Matrix Factorization)
+3) Initial Code - TF-IDF (Term-Frequency Inverse Document Frequency)
+4) Literature Review, Data Description
+5) businesseswithreviews Pandas Profile (HTML)
+6) Final Report
+7) Final Presentation
+
 Link to EDA Report: https://github.com/dariayip/Final-Capstone-Project/blob/main/businesseswithreviewsEDAprofile.html
 
 Link to Content-Based Filtering RS:
